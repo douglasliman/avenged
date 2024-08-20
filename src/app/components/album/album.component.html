@@ -1,0 +1,16 @@
+<h2>Albums</h2>
+<ul>
+  <li *ngFor="let album of albums" (click)="loadTracks(album.id)">
+    <img [src]="album.cover" alt="{{ album.name }}" width="100" height="100" />
+    <h3>{{ album.name }} ({{ album.releaseDate | date: 'yyyy' }})</h3>
+    <ul *ngIf="selectedAlbumId === album.id">
+      <li *ngFor="let track of tracks">
+        Music: {{ track.name }} - {{ track.duration }}
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<div *ngIf="albums.length === 0">
+  <p>No albums available.</p>
+</div>

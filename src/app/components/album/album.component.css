@@ -1,0 +1,43 @@
+/* album.component.css */
+
+h2 {
+  font-size: 2em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+
+}
+
+li {
+  margin-bottom: 1em;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+li img {
+  margin-right: 1em;
+  border-radius: 5px;
+
+}
+
+li h3 {
+  margin: 0;
+}
+
+ul ul {
+  margin-top: 0.5em;
+  padding-left: 20px;
+}
+
+ul ul li {
+  font-style: italic;
+}
+
+p {
+  margin: 0.5em 0;
+}

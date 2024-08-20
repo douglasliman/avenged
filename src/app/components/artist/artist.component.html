@@ -1,0 +1,11 @@
+<div class="app">
+  <div *ngIf="artists.length > 0">
+    <h1>{{ artists[0].name }}</h1>
+    <p><strong>Estilo:</strong> {{ artists[0].genre.join(', ') }}</p>
+    <p><strong>Bio:</strong> {{ artists[0].bio }}</p>
+
+    <div *ngIf="artists[0].images && artists[0].images.length > 0">
+      <!-- <img [src]="artists[0].images[0].url" [alt]="artists[0].images[0].description" /> -->
+      <p>{{ artists[0].images[0].description }}</p>
+    </div>
+  </div>

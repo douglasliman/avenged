@@ -1,0 +1,99 @@
+{
+  "artists": [
+    {
+      "id": 1,
+      "name": "Avenged Sevenfold",
+      "genre": ["Rock", "Metalcore", "Hard Rock"],
+      "bio": "Avenged Sevenfold é uma banda americana de metalcore formada em 1999 em Huntington Beach, Califórnia. Conhecida por seu estilo musical eclético e suas letras emotivas.",
+      "images": [
+        {
+          "url": "https://images2.alphacoders.com/145/145172.jpg",
+          "description": "Avenged Sevenfold em 2017"
+        }
+      ],
+      "albums": [1, 2, 3]
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "artistId": 1,
+      "name": "City of Evil",
+      "releaseDate": "2005-06-07",
+      "cover": "https://m.media-amazon.com/images/I/81wyVyxHcgL._UF1000,1000_QL80_.jpg",
+      "tracks": [1, 2, 3]
+    },
+    {
+      "id": 2,
+      "artistId": 1,
+      "name": "Nightmare",
+      "releaseDate": "2010-07-27",
+      "cover": "https://www.planocritico.com/wp-content/uploads/2021/10/A7X-Nightmare.jpg",
+      "tracks": [4, 5, 6]
+    },
+    {
+      "id": 3,
+      "artistId": 1,
+      "name": "Hail to the King",
+      "releaseDate": "2013-08-27",
+      "cover": "https://m.media-amazon.com/images/I/81nUio152yL._UF1000,1000_QL80_.jpg",
+      "tracks": [7, 8, 9]
+    }
+  ],
+  "tracks": [
+    {
+      "id": 1,
+      "albumId": 1,
+      "name": "Beast and the Harlot",
+      "duration": "3:52"
+    },
+    {
+      "id": 2,
+      "albumId": 1,
+      "name": "Burn It Down",
+      "duration": "3:47"
+    },
+    {
+      "id": 3,
+      "albumId": 1,
+      "name": "Blinded in Chains",
+      "duration": "4:16"
+    },
+    {
+      "id": 4,
+      "albumId": 2,
+      "name": "Nightmare",
+      "duration": "4:11"
+    },
+    {
+      "id": 5,
+      "albumId": 2,
+      "name": "Welcome to the Family",
+      "duration": "3:50"
+    },
+    {
+      "id": 6,
+      "albumId": 2,
+      "name": "So Far Away",
+      "duration": "3:47"
+    },
+    {
+      "id": 7,
+      "albumId": 3,
+      "name": "Hail to the King",
+      "duration": "3:54"
+    },
+    {
+      "id": 8,
+      "albumId": 3,
+      "name": "Doing Time",
+      "duration": "4:01"
+    },
+    {
+      "id": 9,
+      "albumId": 3,
+      "name": "This Means War",
+      "duration": "3:54"
+    }
+  ]
+}
