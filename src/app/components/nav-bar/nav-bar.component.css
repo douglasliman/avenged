@@ -1,48 +1,34 @@
-/* Estilos gerais do menu de navegação */
 nav {
   background-color: #333;
-  /* Cor de fundo do menu */
   color: white;
-  /* Cor do texto */
+
   padding: 10px 20px;
-  /* Espaçamento interno */
+
 }
 
 nav ul {
   list-style: none;
-  /* Remove os marcadores de lista padrão */
   margin: 0;
-  /* Remove margens padrão */
   padding: 0;
-  /* Remove o preenchimento padrão */
   display: flex;
-  /* Exibe os itens da lista em linha */
   justify-content: center;
-  /* Centraliza os itens horizontalmente */
 }
 
 nav li {
   margin: 0 15px;
-  /* Espaçamento entre os itens da lista */
 }
 
 nav a {
   color: white;
-  /* Cor do texto dos links */
   text-decoration: none;
-  /* Remove o sublinhado dos links */
   font-weight: bold;
-  /* Deixa o texto em negrito */
   transition: color 0.3s;
-  /* Transição suave para a cor do texto */
 }
 
 nav a:hover {
   color: #ff6347;
-  /* Cor do texto ao passar o mouse sobre o link */
 }
 
 nav a:active {
   color: #ff4500;
-  /* Cor do texto quando o link é clicado */
 }

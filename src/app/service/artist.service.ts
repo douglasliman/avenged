@@ -9,9 +9,9 @@ import { Track } from '../model/trach.model';
   providedIn: 'root'
 })
 export class ArtistService {
-  private artistsUrl = 'http://localhost:3000/artists'; // URL da API para artistas
-  private albumsUrl = 'http://localhost:3000/albums'; // URL da API para álbuns
-  private tracksUrl = 'http://localhost:3000/tracks'; // URL da API para faixas
+  private artistsUrl = 'http://localhost:3000/artists'; 
+  private albumsUrl = 'http://localhost:3000/albums'; 
+  private tracksUrl = 'http://localhost:3000/tracks'; 
 
   constructor(private http: HttpClient) {}
 

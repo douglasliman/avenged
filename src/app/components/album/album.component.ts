@@ -24,7 +24,7 @@ export class AlbumComponent implements OnInit {
 
   loadAlbums() {
     this.artistService.getAllAlbums().subscribe((data: Album[]) => {
-      this.albums = data; // Carrega todos os álbuns sem filtrar por artista
+      this.albums = data; 
     });
   }
 
